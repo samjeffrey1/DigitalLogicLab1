@@ -98,7 +98,7 @@ Awnser: F6 compiles the program
 
 \section*{Results}
 
-For the results section I created figure 1. Inorder to create the table part of figure 1 I created a tabular. In the tabular I was able to input the data and headers. I then ended the tabular and included the picture graphic. When I included the picture graphic I cropped each side using trim feature. This allowed me to create figure 1 which is seen below.
+For the results section I created figure 1. Inorder to create the table part of figure 1 I created a tabular. In the tabular I was able to input the data and headers. I then ended the tabular and included the picture graphic. When I included the picture graphic I cropped each side using trim feature. This allowed me to create figure 1 which is seen below. For Figure 2 I took an image of my Git history and created a figure and trimed the image down.
 
 \begin{figure}[ht]\centering
 	\begin{tabular}{c|c|c}
@@ -118,6 +118,11 @@ For the results section I created figure 1. Inorder to create the table part of 
 	\label{fig:another_image}          % label must be after caption
 \end{figure}
 
+\begin{figure}[ht]\centering
+	\includegraphics[width=1\textwidth,trim=15cm 13cm 80cm 7cm,clip]{Image1.PNG}
+	\caption{This is an image of my Git History}
+	\label{fig:image}		% label must be after caption
+\end{figure}
 
 \section*{Code}
 
